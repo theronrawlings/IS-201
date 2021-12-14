@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(124, 92, 51);
+}
+
+.navigation{
+    display: flex;
+    border: solid 5px black;
+    background-color: burlywood;
+    flex-direction: row;
+    width: 99%;
+}
+
+.Tableau{
+    position: static;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+    gap: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+.footer{
+    position: static;
+    display:block;
+    background-color: burlywood;
+    width: 95%;
+    margin: 10px;
+    border: dashed 3px rgb(20, 20, 105);
+    bottom:0%;
+}
+
+p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    display:block;
+    border: black 2px solid;
+    background-color: beige;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
